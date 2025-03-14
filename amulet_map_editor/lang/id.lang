@@ -26,11 +26,11 @@
 
 
 # Shared strings
-shared.check_console=Periksa konsol untuk lebih jelas.
+shared.check_console=Periksa konsol untuk detail lebih lanjut.
 
 # App
-app.world_still_used=Dunia masih digunakan. Mohon tutup terlebih dahulu
-app.browser_open_tooltip=Mengklik akan membuka halaman di browser Anda
+app.world_still_used=Dunia masih digunakan. Harap tutup terlebih dahulu.
+app.browser_open_tooltip=Klik untuk membuka halaman di browser Anda.
 
 world.java_platform=Java
 world.bedrock_platform=Bedrock
@@ -47,42 +47,42 @@ menu_bar.help.menu_name=&Bantuan
 # Main menu
 main_menu.tab_name=Menu Utama
 main_menu.open_world=Buka Dunia
-main_menu.user_manual=User Manual
-main_menu.bug_tracker=Bug Tracker
+main_menu.user_manual=Panduan Pengguna
+main_menu.bug_tracker=Pelacak Bug
 main_menu.discord=Discord Amulet
 
 # Language Select
-language_select.title=Pemilihan Bahasa
+language_select.title=Pilih Bahasa
 language_select.help=Pilih bahasa yang akan digunakan di Amulet dari daftar di bawah ini.
-language_select.contribute=Jika Anda ingin memperbaiki atau menambahkan terjemahan, klik di sini.
+language_select.contribute=Jika ingin memperbaiki atau menambahkan terjemahan, klik di sini.
 
 # Warning Dialog
 warning_dialog.title=Selamat datang di Amulet
 warning_dialog.content=Halo dan selamat datang di Amulet!\n\nKami menyarankan untuk membuat cadangan dunia Anda sebelum membukanya di Amulet.\n\nKami mencoba untuk memastikan bahwa Amulet tidak merusak dunia, namun format penyimpanan terkadang tidak terdokumentasi dan terus berubah-ubah, dan terkadang kami melakukan kesalahan.\n\nKarena alasan ini, kami hanya secara resmi mendukung rilis penuh yang sudah kami uji coba.\n\nSnapshot Java, beta Bedrock, dan fitur-fitur eksperimental dapat berfungsi namun belum teruji, sehingga tidak secara resmi didukung. Saat ini entitas tidak didukung dan item hanya didukung dalam platform yang sama.\n\nJika Anda menemukan fitur yang ingin ditambahkan atau bug yang perlu diperbaiki, laporkan di pelacak bug kami.\n\nSilakan gunakan alat pencarian untuk melihat apakah sudah dilaporkan sebelum membuat tiket baru.\n\nJika Anda masih baru, kami sarankan untuk membaca buku panduan untuk membiasakan diri dengan program ini.\n\n- Tim Amulet
 warning_dialog.do_not_show_again=Jangan tampilkan ini lagi
-warning_dialog.i_understand=Saya paham
+warning_dialog.i_understand=Saya mengerti
 
 # Update check
-update_check.newer_version_released=Versi baru Amulet telah dikeluarkan!
+update_check.newer_version_released=Versi baru Amulet tersedia!
 update_check.new_version=Versi Baru:
 update_check.current_version=Versi Anda:
-update_check.update=Pergi ke Halaman Unduh
+update_check.update=Kunjungi Halaman Unduhan
 update_check.ok=Oke
 
 # Select world
 select_world.title=Pilih Dunia
-select_world.open_world_warning=Tutup dunia dalam game dan tools lainnya sebelum membuka pada Amulet.
-select_world.open_world_button=Buka dunia lainnya
+select_world.open_world_warning=Tutup dunia dalam game dan alat lain sebelum membukanya di Amulet.
+select_world.open_world_button=Buka Dunia Lainnya
 select_world.open_world_dialogue=Pilih direktori dunia Minecraft
 select_world.select_directory_failed=Gagal membuka direktori!
 select_world.recent_worlds=Dunia yang Baru Dibuka
-select_world.no_loader_found=Tidak dapat menemukan loader untuk dunia ini.
-select_world.loading_world_failed=Kesalahan saat membuka dunia.
+select_world.no_loader_found=Tidak dapat menemukan pemuat untuk dunia ini.
+select_world.loading_world_failed=Terjadi kesalahan saat membuka dunia.
 
 # About
 program_about.tab_name=Tentang
 program_about.currently_opened_world=Dunia yang Dibuka Saat Ini:
-program_about.choose_from_options=Pilih dari opsi di sebelah kiri apa yang ingin Anda lakukan.\nAnda dapat beralih di antara ini kapan saja.
+program_about.choose_from_options=Pilih salah satu opsi di sebelah kiri. Anda dapat beralih kapan saja.
 
 # Convert
 program_convert.tab_name=Konversi
@@ -95,13 +95,13 @@ program_convert.select_before_converting=Pilih dunia sebelum mengonversi!
 program_convert.conversion_completed=Konversi dunia selesai
 
 ## Menu bar
-program_convert.menu_bar.help.user_guide=Panduan Pengguna (online)
+program_convert.menu_bar.help.user_guide=Panduan Pengguna (Online)
 
 # 3D Editor
 program_3d_edit.tab_name=Editor 3D
 
 ## Canvas
-program_3d_edit.canvas.please_wait=Harap tunggu selagi pe-render memuat
+program_3d_edit.canvas.please_wait=Harap tunggu, sedang memuat render.
 program_3d_edit.canvas.downloading_bedrock_vanilla_resource_pack=Mengunduh paket sumber daya vanilla Bedrock
 program_3d_edit.canvas.downloading_java_vanilla_resource_pack=Mengunduh paket sumber daya vanilla Java
 program_3d_edit.canvas.java_rp_failed=Gagal mengunduh paket sumber daya Java terbaru.
